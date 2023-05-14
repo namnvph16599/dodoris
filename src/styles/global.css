@@ -1,16 +1,19 @@
 @tailwind base;
 
 a {
-  @apply text-blue-700;
+  text-decoration: none;
 }
-
 a:hover {
-  @apply border-b-2 border-blue-700;
+  text-decoration: none;
 }
 
 @tailwind components;
 
 @tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
 
 .content p {
   @apply my-6;

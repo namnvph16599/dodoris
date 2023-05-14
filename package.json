@@ -17,6 +17,7 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "antd": "^5.4.7",
     "next": "^13.4.1",
     "next-seo": "^6.0.0",
     "next-sitemap": "^4.0.9",
