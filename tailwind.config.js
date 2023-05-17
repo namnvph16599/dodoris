@@ -33,7 +33,7 @@ module.exports = {
       },
       grayscale: {
         black: '#202C38',
-        border: '#EEEEEE',
+        border: '#e5e7eb',
         gray: '#676E72',
         light: '#919699',
         disabled: '#A6ABAD',
@@ -400,6 +400,7 @@ module.exports = {
       },
       boxShadow: {
         drop: '0px 6px 10px #0000001A',
+        footer: '0 1px 3px 5px #8b8d9d0d, 0 0 1px #41476c26',
       },
       inset: {
         '3px': '3px',
