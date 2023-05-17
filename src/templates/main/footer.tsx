@@ -4,15 +4,15 @@ import React, { memo } from 'react';
 
 const Footer = memo(() => {
   return (
-    <footer className="border-gray-200 bg-white px-2 py-2.5 font-mono sm:px-4">
+    <footer className="border-t border-solid border-grayscale-border px-2 py-2.5 font-mono shadow-footer sm:px-4">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
         <div className="mb-6 md:mb-0">
           <Link href="/" className="flex items-center">
             <Image
-              src="/images/dodoris-logo-webp.jpg"
+              src="/images/logo.jpg"
               width={200}
               height={200}
-              alt="DODORIS"
+              alt="DODORIS logo"
             />
           </Link>
           <span />
@@ -76,36 +76,33 @@ const Footer = memo(() => {
             <ul className="flex space-x-6 text-grayscale-black sm:mt-0 sm:justify-start">
               <li className="mb-4  rounded text-base hover:text-[#FFABAB] md:bg-transparent md:p-0">
                 <Link
-                  href="/"
-                  className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                  href="https://www.facebook.com/DodorisClothing"
+                  className="dark:hover:text-white"
                 >
                   <img
+                    height={32}
+                    width={32}
                     src="/images/facebook.png"
-                    className="sm:h-8"
                     alt="Facebook Logo"
                   />
                 </Link>
               </li>
               <li className="mb-4  rounded text-base hover:text-[#FFABAB] md:bg-transparent md:p-0">
-                <Link
-                  href="/"
-                  className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-                >
-                  <img
+                <Link href="/" className="dark:hover:text-white">
+                  <Image
+                    height={32}
+                    width={32}
                     src="/images/zalo.png"
-                    className="sm:h-8"
                     alt="Zalo Logo"
                   />
                 </Link>
               </li>
               <li className="mb-4  rounded text-base hover:text-[#FFABAB] md:bg-transparent md:p-0">
-                <Link
-                  href="/"
-                  className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-                >
-                  <img
+                <Link href="/" className="dark:hover:text-white">
+                  <Image
+                    height={32}
+                    width={32}
                     src="/images/youtube.png"
-                    className="sm:h-8"
                     alt="Youtube Logo"
                   />
                 </Link>
@@ -116,7 +113,7 @@ const Footer = memo(() => {
       </div>
       <hr className="my-6 border-grayscale-border text-center sm:mx-auto lg:my-8" />
       <div className="sm:block sm:text-center ">
-        <span className="text-gray-500 dark:text-gray-400 block text-center text-sm sm:text-center">
+        <span className="block text-center text-sm sm:text-center">
           © 2023 <Link href="/">Dodoris™</Link>. All Rights Reserved.
         </span>
       </div>

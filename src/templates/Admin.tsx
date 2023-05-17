@@ -8,7 +8,7 @@ type IMainProps = {
 };
 
 const AdminLayout = (props: IMainProps) => (
-  <div className="w-full px-1 text-gray-700 antialiased">
+  <div className="w-full px-1 antialiased">
     {props.meta}
 
     <div className="mx-auto w-full">
@@ -16,7 +16,7 @@ const AdminLayout = (props: IMainProps) => (
         <aside>sider</aside>
         <main className="content py-5 text-xl">{props.children}</main>
       </div>
-      <footer className="border-t border-gray-300 py-8 text-center text-sm">
+      <footer className="border-t py-8 text-center text-sm">
         © Copyright {new Date().getFullYear()} {AppConfig.title}.
       </footer>
     </div>
