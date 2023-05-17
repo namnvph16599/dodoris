@@ -23,13 +23,13 @@ const Footer = memo(() => {
               Về Dodoris
             </h2>
             <ul className="text-grayscale-black ">
-              <li className="mb-4  rounded text-sm hover:text-[#FFABAB] md:bg-transparent md:p-0">
+              <li className="mb-4  rounded text-sm hover:text-primarys-hover md:bg-transparent md:p-0">
                 <Link href="/about">Giới thiệu</Link>
               </li>
-              <li className="mb-4  rounded text-sm hover:text-[#FFABAB] md:bg-transparent md:p-0">
+              <li className="mb-4  rounded text-sm hover:text-primarys-hover md:bg-transparent md:p-0">
                 <Link href="/contact">Liên hệ</Link>
               </li>
-              <li className="mb-4  rounded text-sm hover:text-[#FFABAB] md:bg-transparent md:p-0">
+              <li className="mb-4  rounded text-sm hover:text-primarys-hover md:bg-transparent md:p-0">
                 <Link href="/news">Tin tức</Link>
               </li>
             </ul>
@@ -39,17 +39,17 @@ const Footer = memo(() => {
               Hỗ trợ khách hàng
             </h2>
             <ul>
-              <li className="mb-4  rounded text-sm hover:text-[#FFABAB] md:bg-transparent md:p-0">
+              <li className="mb-4  rounded text-sm hover:text-primarys-hover md:bg-transparent md:p-0">
                 <Link href="https://github.com/themesberg/flowbite">
                   Hướng dẫn chọn size
                 </Link>
               </li>
-              <li className="mb-4  rounded text-sm hover:text-[#FFABAB] md:bg-transparent md:p-0">
+              <li className="mb-4  rounded text-sm hover:text-primarys-hover md:bg-transparent md:p-0">
                 <Link href="https://github.com/themesberg/flowbite">
                   Chính sách bảo hành, đổi/trả
                 </Link>
               </li>
-              <li className="mb-4  rounded text-sm hover:text-[#FFABAB] md:bg-transparent md:p-0">
+              <li className="mb-4  rounded text-sm hover:text-primarys-hover md:bg-transparent md:p-0">
                 <Link href="https://discord.gg/4eeurUVvTy">
                   Thanh toán, giao nhận
                 </Link>
@@ -74,7 +74,7 @@ const Footer = memo(() => {
               Theo dõi Dodoris tại
             </h2>
             <ul className="flex space-x-6 text-grayscale-black sm:mt-0 sm:justify-start">
-              <li className="mb-4  rounded text-sm hover:text-[#FFABAB] md:bg-transparent md:p-0">
+              <li className="mb-4  rounded text-sm hover:text-primarys-hover md:bg-transparent md:p-0">
                 <Link
                   href="https://www.facebook.com/DodorisClothing"
                   className="dark:hover:text-white"
@@ -87,7 +87,7 @@ const Footer = memo(() => {
                   />
                 </Link>
               </li>
-              <li className="mb-4  rounded text-sm hover:text-[#FFABAB] md:bg-transparent md:p-0">
+              <li className="mb-4  rounded text-sm hover:text-primarys-hover md:bg-transparent md:p-0">
                 <Link href="/" className="dark:hover:text-white">
                   <Image
                     height={32}
@@ -97,7 +97,7 @@ const Footer = memo(() => {
                   />
                 </Link>
               </li>
-              <li className="mb-4  rounded text-sm hover:text-[#FFABAB] md:bg-transparent md:p-0">
+              <li className="mb-4  rounded text-sm hover:text-primarys-hover md:bg-transparent md:p-0">
                 <Link href="/" className="dark:hover:text-white">
                   <Image
                     height={32}

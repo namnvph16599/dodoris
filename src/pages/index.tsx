@@ -1,7 +1,7 @@
 import { Button } from 'antd';
 
-import { Meta } from '@/layouts/Meta';
-import { MainLayout } from '@/templates/main';
+import { MainLayout } from '@/layouts/main';
+import { Meta } from '@/templates/Meta';
 
 const Index = () => {
   return (
@@ -14,6 +14,9 @@ const Index = () => {
       }
     >
       <Button type="primary">Primary Button</Button>
+      <Button type="primary" disabled>
+        Primary Button disabled
+      </Button>
       <Button>Default Button</Button>
       <Button type="dashed">Dashed Button</Button>
       <Button type="text">Text Button</Button>

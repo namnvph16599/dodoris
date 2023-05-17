@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Meta } from '@/layouts/Meta';
-import { AdminLayout } from '@/templates/Admin';
+import { AdminLayout } from '@/layouts/admin';
+import { Meta } from '@/templates/Meta';
 
 const Dashboard = React.memo(function Dashboard() {
   return (

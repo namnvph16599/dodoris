@@ -22,3 +22,33 @@ a:hover {
 .content ul {
   @apply my-6;
 }
+
+/* antd */
+
+.ant-input:hover,.ant-input:focus {
+  @apply border-grayscale-black;
+}
+
+.ant-btn-primary {
+  @apply bg-primarys-default
+}
+
+.ant-btn-primary:hover ,.ant-btn-primary:not(:disabled):hover{
+  @apply bg-primarys-hover
+}
+
+.ant-btn-primary:disabled {
+  @apply bg-primarys-disabled text-white
+
+}
+
+.ant-btn-default:not(:disabled):hover,.ant-btn-dashed:not(:disabled):hover {
+  @apply text-primarys-hover border-primarys-hover
+}
+.ant-btn-text:not(:disabled):hover {
+  @apply text-white  bg-primarys-hover
+}
+
+.ant-btn-link:not(:disabled):hover {
+  @apply text-primarys-default
+}

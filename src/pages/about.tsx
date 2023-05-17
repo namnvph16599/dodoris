@@ -1,7 +1,7 @@
 import { memo } from 'react';
 
-import { Meta } from '@/layouts/Meta';
-import { MainLayout } from '@/templates/main';
+import { MainLayout } from '@/layouts/main';
+import { Meta } from '@/templates/Meta';
 
 const About = memo(function About() {
   return (

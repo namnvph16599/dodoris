@@ -6,10 +6,11 @@ module.exports = {
       transparent: 'transparent',
       white: '#FFFFFF',
       primarys: {
-        DEFAULT: '#FFC42C',
+        default: '#ff9793',
+        disabled: '#ffdedd',
         light: '#FFEFC4',
         lighter: '#FFF4D9',
-        hover: '#FFABAB',
+        hover: '#ff6e6c',
       },
       grayscale: {
         black: '#202C38',
@@ -356,7 +357,21 @@ module.exports = {
         '85px': '85px',
       },
       borderWidth: {},
-      borderColor: {},
+      borderColor: {
+        primarys: {
+          default: '#ff9793',
+          light: '#FFEFC4',
+          lighter: '#FFF4D9',
+          hover: '#faa9a8',
+        },
+        grayscale: {
+          black: '#202C38',
+          border: '#e5e7eb',
+          gray: '#676E72',
+          light: '#919699',
+          disabled: '#A6ABAD',
+        },
+      },
       fontFamily: {
         body: [
           'Roboto',
